@@ -1,0 +1,134 @@
+19.1262 	INFO 	Loaded monitor calibration from ['2024_10_30 16:29']
+20.6251 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+20.6256 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fd6c2547c10>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fd6905b9070>, multiSample=False, name='window1', numSamples=2, pos=[420.0, 262.5], screen=0, size=array([3360, 2100]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+20.6258 	EXP 	window1: mouseVisible = True
+20.6271 	EXP 	window1: mouseVisible = False
+20.6271 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+20.6271 	EXP 	window1: recordFrameIntervals = False
+20.7080 	EXP 	window1: recordFrameIntervals = True
+21.5414 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+24.5112 	INFO 	keyboard.Keyboard is using iohub backend.
+24.5883 	EXP 	Created instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instructions', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+24.5883 	INFO 	keyboard.Keyboard is using iohub backend.
+24.6109 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='You will be presented with a suspect:', units='height', win=Window(...), wrapWidth=1)
+24.6918 	EXP 	Created image_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='elmo1.png', interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+24.6918 	INFO 	keyboard.Keyboard is using iohub backend.
+24.7027 	EXP 	Created text_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_5', opacity=1.0, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='Followed by a 10 second fixation cross... ', units='height', win=Window(...), wrapWidth=1)
+24.7078 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygon', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+24.7247 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+24.7320 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='PICK THE SUSPECT: [LEFT] OR [RIGHT]', units='height', win=Window(...), wrapWidth=1)
+24.7619 	EXP 	Created image_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='elmo2.png', interpolate=True, mask=None, maskParams=None, name='image_3', opacity=1.0, ori=0.0, pos=array([-0.5,  0. ]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+24.7998 	EXP 	Created image_4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='cookie.png', interpolate=True, mask=None, maskParams=None, name='image_4', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+24.7999 	INFO 	keyboard.Keyboard is using iohub backend.
+24.8079 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='GREAT! PRESS [SPACE] TO BEGIN', units='height', win=Window(...), wrapWidth=1)
+24.8079 	INFO 	keyboard.Keyboard is using iohub backend.
+24.8096 	EXP 	Created text_7 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_7', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+24.8220 	EXP 	Imported eyewitness_trials.csv as conditions, 30 conditions, 7 params
+24.8303 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+24.8334 	EXP 	Created fixation = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+24.8409 	EXP 	Created left = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left', opacity=1.0, ori=0.0, pos=array([-0.5,  0. ]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+24.8483 	EXP 	Created right = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+24.8483 	INFO 	keyboard.Keyboard is using iohub backend.
+24.8513 	EXP 	Created fixation_2 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='fixation_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+24.8622 	EXP 	Created text_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_6', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+24.8926 	WARNING 	t of last frame was 3351.32ms (=1/0)
+24.8926 	EXP 	instructions: autoDraw = True
+25.0692 	WARNING 	t of last frame was 25.10ms (=1/39)
+25.2185 	WARNING 	t of last frame was 24.43ms (=1/40)
+25.3526 	WARNING 	t of last frame was 25.23ms (=1/39)
+25.6358 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+26.5431 	DATA 	Keypress: space
+26.5643 	EXP 	instructions: autoDraw = False
+26.5643 	EXP 	text: autoDraw = True
+26.5643 	EXP 	image_2: autoDraw = True
+31.5639 	EXP 	text: autoDraw = False
+31.5639 	EXP 	image_2: autoDraw = False
+31.5639 	EXP 	text_5: autoDraw = True
+31.5639 	EXP 	polygon: autoDraw = True
+36.5622 	EXP 	text_5: autoDraw = False
+36.5622 	EXP 	polygon: autoDraw = False
+36.5622 	EXP 	text_2: autoDraw = True
+44.5511 	EXP 	text_2: autoDraw = False
+44.5511 	EXP 	text_3: autoDraw = True
+44.5511 	EXP 	image_3: autoDraw = True
+44.5511 	EXP 	image_4: autoDraw = True
+47.7734 	DATA 	Keypress: left
+47.7862 	EXP 	text_3: autoDraw = False
+47.7862 	EXP 	image_3: autoDraw = False
+47.7862 	EXP 	image_4: autoDraw = False
+47.7862 	EXP 	text_4: autoDraw = True
+51.6709 	EXP 	Created sequence: random, trialTypes=1, nReps=30, seed=None
+51.6713 	EXP 	New trial (rep=0, index=0): None
+51.6791 	DATA 	Keypress: space
+51.7050 	EXP 	text_4: autoDraw = False
+51.7050 	EXP 	text_7: height = 0.05
+51.7050 	EXP 	text_7: height = 0.05
+51.7050 	EXP 	text_7: height = 0.05
+51.7050 	EXP 	text_7: text = 'Trial #0'
+51.7050 	EXP 	text_7: autoDraw = True
+53.7210 	EXP 	text_7: autoDraw = False
+53.7210 	EXP 	image: image = 'suspect1.png'
+53.7210 	EXP 	image: autoDraw = True
+54.2173 	EXP 	image: autoDraw = False
+54.2173 	EXP 	image: autoDraw = False
+54.2173 	EXP 	fixation: autoDraw = True
+64.2214 	EXP 	fixation: autoDraw = False
+64.2214 	EXP 	fixation: autoDraw = False
+64.2214 	EXP 	left: image = 'target1.png'
+64.2214 	EXP 	right: image = 'innocent1.png'
+64.2214 	EXP 	left: autoDraw = True
+64.2214 	EXP 	right: autoDraw = True
+67.8877 	DATA 	Keypress: left
+67.8946 	EXP 	left: autoDraw = False
+67.8946 	EXP 	right: autoDraw = False
+67.8946 	EXP 	fixation_2: autoDraw = True
+69.8846 	EXP 	New trial (rep=1, index=0): None
+69.8963 	EXP 	fixation_2: autoDraw = False
+69.8963 	EXP 	fixation_2: autoDraw = False
+69.8963 	EXP 	text_7: height = 0.05
+69.8963 	EXP 	text_7: height = 0.05
+69.8963 	EXP 	text_7: height = 0.05
+69.8963 	EXP 	text_7: text = 'Trial #1'
+69.8963 	EXP 	text_7: autoDraw = True
+71.9020 	EXP 	text_7: autoDraw = False
+71.9020 	EXP 	text_7: autoDraw = False
+71.9020 	EXP 	image: image = 'suspect2.png'
+71.9020 	EXP 	image: autoDraw = True
+73.4002 	EXP 	image: autoDraw = False
+73.4002 	EXP 	image: autoDraw = False
+73.4002 	EXP 	fixation: autoDraw = True
+83.4061 	EXP 	fixation: autoDraw = False
+83.4061 	EXP 	fixation: autoDraw = False
+83.4061 	EXP 	left: image = 'target2.png'
+83.4061 	EXP 	right: image = 'innocent2.png'
+83.4061 	EXP 	left: autoDraw = True
+83.4061 	EXP 	right: autoDraw = True
+86.1467 	DATA 	Keypress: right
+86.1545 	EXP 	left: autoDraw = False
+86.1545 	EXP 	right: autoDraw = False
+86.1545 	EXP 	fixation_2: autoDraw = True
+88.1423 	EXP 	New trial (rep=2, index=0): None
+88.1556 	EXP 	fixation_2: autoDraw = False
+88.1556 	EXP 	fixation_2: autoDraw = False
+88.1556 	EXP 	text_7: height = 0.05
+88.1556 	EXP 	text_7: height = 0.05
+88.1556 	EXP 	text_7: height = 0.05
+88.1556 	EXP 	text_7: text = 'Trial #2'
+88.1556 	EXP 	text_7: autoDraw = True
+90.1604 	EXP 	text_7: autoDraw = False
+90.1604 	EXP 	text_7: autoDraw = False
+90.1604 	EXP 	image: image = 'suspect3.png'
+90.1604 	EXP 	image: autoDraw = True
+90.6591 	EXP 	image: autoDraw = False
+90.6591 	EXP 	image: autoDraw = False
+90.6591 	EXP 	fixation: autoDraw = True
+92.4196 	DATA 	Keypress: escape
+93.5138 	EXP 	window1: mouseVisible = True
+93.5152 	INFO 	saved data to /Users/codylejang/Desktop/eyewitness/data/cody_eyewitness_2024-11-22_07h42.50.569.psydat
+93.5172 	INFO 	saved data to '/Users/codylejang/Desktop/eyewitness/data/cody_eyewitness_2024-11-22_07h42.50.569.csv'

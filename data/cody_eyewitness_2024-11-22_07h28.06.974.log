@@ -1,0 +1,612 @@
+11.2408 	INFO 	Loaded monitor calibration from ['2024_10_30 16:29']
+12.7330 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+12.7335 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fbd30ee1d00>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fbcfee761f0>, multiSample=False, name='window1', numSamples=2, pos=[420.0, 262.5], screen=0, size=array([3360, 2100]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+12.7337 	EXP 	window1: mouseVisible = True
+12.7347 	EXP 	window1: mouseVisible = False
+12.7347 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+12.7347 	EXP 	window1: recordFrameIntervals = False
+12.8163 	EXP 	window1: recordFrameIntervals = True
+13.6500 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+17.1585 	INFO 	keyboard.Keyboard is using iohub backend.
+17.2454 	EXP 	Created instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instructions', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+17.2455 	INFO 	keyboard.Keyboard is using iohub backend.
+17.2719 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='You will be presented with a suspect:', units='height', win=Window(...), wrapWidth=1)
+17.4571 	EXP 	Created image_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='elmo1.png', interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+17.4571 	INFO 	keyboard.Keyboard is using iohub backend.
+17.4679 	EXP 	Created text_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_5', opacity=1.0, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='Followed by a 10 second fixation cross... ', units='height', win=Window(...), wrapWidth=1)
+17.4748 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygon', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+17.4916 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+17.4994 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='PICK THE SUSPECT: [LEFT] OR [RIGHT]', units='height', win=Window(...), wrapWidth=1)
+17.5296 	EXP 	Created image_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='elmo2.png', interpolate=True, mask=None, maskParams=None, name='image_3', opacity=1.0, ori=0.0, pos=array([-0.5,  0. ]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+17.5677 	EXP 	Created image_4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='cookie.png', interpolate=True, mask=None, maskParams=None, name='image_4', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+17.5677 	INFO 	keyboard.Keyboard is using iohub backend.
+17.5756 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='GREAT! PRESS [SPACE] TO BEGIN', units='height', win=Window(...), wrapWidth=1)
+17.5756 	INFO 	keyboard.Keyboard is using iohub backend.
+17.5870 	EXP 	Imported eyewitness_trials.csv as conditions, 30 conditions, 7 params
+17.5956 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+17.5986 	EXP 	Created fixation = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+17.6061 	EXP 	Created left = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left', opacity=1.0, ori=0.0, pos=array([-0.5,  0. ]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+17.6135 	EXP 	Created right = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+17.6135 	INFO 	keyboard.Keyboard is using iohub backend.
+17.6166 	EXP 	Created fixation_2 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='fixation_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+17.6270 	EXP 	Created text_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_6', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+17.6570 	WARNING 	t of last frame was 4007.29ms (=1/0)
+17.6570 	EXP 	instructions: autoDraw = True
+17.8838 	WARNING 	t of last frame was 23.81ms (=1/42)
+17.9339 	WARNING 	t of last frame was 24.96ms (=1/40)
+17.9838 	WARNING 	t of last frame was 24.77ms (=1/40)
+18.0338 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+25.0245 	DATA 	Keypress: space
+25.0457 	EXP 	instructions: autoDraw = False
+25.0457 	EXP 	text: autoDraw = True
+25.0457 	EXP 	image_2: autoDraw = True
+30.0646 	EXP 	text: autoDraw = False
+30.0646 	EXP 	image_2: autoDraw = False
+30.0646 	EXP 	text_5: autoDraw = True
+30.0646 	EXP 	polygon: autoDraw = True
+35.0441 	EXP 	text_5: autoDraw = False
+35.0441 	EXP 	polygon: autoDraw = False
+35.0441 	EXP 	text_2: autoDraw = True
+43.0260 	EXP 	text_2: autoDraw = False
+43.0260 	EXP 	text_3: autoDraw = True
+43.0260 	EXP 	image_3: autoDraw = True
+43.0260 	EXP 	image_4: autoDraw = True
+46.9848 	DATA 	Keypress: left
+46.9977 	EXP 	text_3: autoDraw = False
+46.9977 	EXP 	image_3: autoDraw = False
+46.9977 	EXP 	image_4: autoDraw = False
+46.9977 	EXP 	text_4: autoDraw = True
+49.6354 	EXP 	Created sequence: random, trialTypes=1, nReps=30, seed=None
+49.6358 	EXP 	New trial (rep=0, index=0): None
+49.6490 	DATA 	Keypress: space
+49.6631 	EXP 	text_4: autoDraw = False
+49.6631 	EXP 	image: image = 'suspect1.png'
+49.6631 	EXP 	image: autoDraw = True
+50.1578 	EXP 	image: autoDraw = False
+50.1578 	EXP 	image: autoDraw = False
+50.1578 	EXP 	fixation: autoDraw = True
+60.1690 	EXP 	fixation: autoDraw = False
+60.1690 	EXP 	fixation: autoDraw = False
+60.1690 	EXP 	left: image = 'target1.png'
+60.1690 	EXP 	right: image = 'innocent1.png'
+60.1690 	EXP 	left: autoDraw = True
+60.1690 	EXP 	right: autoDraw = True
+61.9296 	DATA 	Keypress: left
+61.9364 	EXP 	left: autoDraw = False
+61.9364 	EXP 	right: autoDraw = False
+61.9364 	EXP 	fixation_2: autoDraw = True
+63.9262 	EXP 	New trial (rep=1, index=0): None
+63.9441 	EXP 	fixation_2: autoDraw = False
+63.9441 	EXP 	fixation_2: autoDraw = False
+63.9441 	EXP 	image: image = 'suspect2.png'
+63.9441 	EXP 	image: autoDraw = True
+65.4408 	EXP 	image: autoDraw = False
+65.4408 	EXP 	image: autoDraw = False
+65.4408 	EXP 	fixation: autoDraw = True
+75.4467 	EXP 	fixation: autoDraw = False
+75.4467 	EXP 	fixation: autoDraw = False
+75.4467 	EXP 	left: image = 'target2.png'
+75.4467 	EXP 	right: image = 'innocent2.png'
+75.4467 	EXP 	left: autoDraw = True
+75.4467 	EXP 	right: autoDraw = True
+77.9535 	DATA 	Keypress: right
+77.9599 	EXP 	left: autoDraw = False
+77.9599 	EXP 	right: autoDraw = False
+77.9599 	EXP 	fixation_2: autoDraw = True
+79.9498 	EXP 	New trial (rep=2, index=0): None
+79.9670 	EXP 	fixation_2: autoDraw = False
+79.9670 	EXP 	fixation_2: autoDraw = False
+79.9670 	EXP 	image: image = 'suspect3.png'
+79.9670 	EXP 	image: autoDraw = True
+80.4650 	EXP 	image: autoDraw = False
+80.4650 	EXP 	image: autoDraw = False
+80.4650 	EXP 	fixation: autoDraw = True
+90.4698 	EXP 	fixation: autoDraw = False
+90.4698 	EXP 	fixation: autoDraw = False
+90.4698 	EXP 	left: image = 'innocent3.png'
+90.4698 	EXP 	right: image = 'target3.png'
+90.4698 	EXP 	left: autoDraw = True
+90.4698 	EXP 	right: autoDraw = True
+95.0654 	DATA 	Keypress: right
+95.0722 	EXP 	left: autoDraw = False
+95.0722 	EXP 	right: autoDraw = False
+95.0722 	EXP 	fixation_2: autoDraw = True
+97.0582 	EXP 	New trial (rep=3, index=0): None
+97.0757 	EXP 	fixation_2: autoDraw = False
+97.0757 	EXP 	fixation_2: autoDraw = False
+97.0757 	EXP 	image: image = 'suspect4.png'
+97.0757 	EXP 	image: autoDraw = True
+97.5733 	EXP 	image: autoDraw = False
+97.5733 	EXP 	image: autoDraw = False
+97.5733 	EXP 	fixation: autoDraw = True
+107.5907 	EXP 	fixation: autoDraw = False
+107.5907 	EXP 	fixation: autoDraw = False
+107.5907 	EXP 	left: image = 'innocent4.png'
+107.5907 	EXP 	right: image = 'target4.png'
+107.5907 	EXP 	left: autoDraw = True
+107.5907 	EXP 	right: autoDraw = True
+109.9362 	DATA 	Keypress: left
+109.9425 	EXP 	left: autoDraw = False
+109.9425 	EXP 	right: autoDraw = False
+109.9425 	EXP 	fixation_2: autoDraw = True
+111.9321 	EXP 	New trial (rep=4, index=0): None
+111.9498 	EXP 	fixation_2: autoDraw = False
+111.9498 	EXP 	fixation_2: autoDraw = False
+111.9498 	EXP 	image: image = 'suspect5.png'
+111.9498 	EXP 	image: autoDraw = True
+112.4473 	EXP 	image: autoDraw = False
+112.4473 	EXP 	image: autoDraw = False
+112.4473 	EXP 	fixation: autoDraw = True
+122.4511 	EXP 	fixation: autoDraw = False
+122.4511 	EXP 	fixation: autoDraw = False
+122.4511 	EXP 	left: image = 'innocent5.png'
+122.4511 	EXP 	right: image = 'target5.png'
+122.4511 	EXP 	left: autoDraw = True
+122.4511 	EXP 	right: autoDraw = True
+124.2855 	DATA 	Keypress: right
+124.2922 	EXP 	left: autoDraw = False
+124.2922 	EXP 	right: autoDraw = False
+124.2922 	EXP 	fixation_2: autoDraw = True
+126.2819 	EXP 	New trial (rep=5, index=0): None
+126.2987 	EXP 	fixation_2: autoDraw = False
+126.2987 	EXP 	fixation_2: autoDraw = False
+126.2987 	EXP 	image: image = 'suspect6.png'
+126.2987 	EXP 	image: autoDraw = True
+127.7979 	EXP 	image: autoDraw = False
+127.7979 	EXP 	image: autoDraw = False
+127.7979 	EXP 	fixation: autoDraw = True
+137.8049 	EXP 	fixation: autoDraw = False
+137.8049 	EXP 	fixation: autoDraw = False
+137.8049 	EXP 	left: image = 'innocent6.png'
+137.8049 	EXP 	right: image = 'target6.png'
+137.8049 	EXP 	left: autoDraw = True
+137.8049 	EXP 	right: autoDraw = True
+141.3436 	DATA 	Keypress: right
+141.3513 	EXP 	left: autoDraw = False
+141.3513 	EXP 	right: autoDraw = False
+141.3513 	EXP 	fixation_2: autoDraw = True
+143.3412 	EXP 	New trial (rep=6, index=0): None
+143.3591 	EXP 	fixation_2: autoDraw = False
+143.3591 	EXP 	fixation_2: autoDraw = False
+143.3591 	EXP 	image: image = 'suspect7.png'
+143.3591 	EXP 	image: autoDraw = True
+144.8561 	EXP 	image: autoDraw = False
+144.8561 	EXP 	image: autoDraw = False
+144.8561 	EXP 	fixation: autoDraw = True
+154.8685 	EXP 	fixation: autoDraw = False
+154.8685 	EXP 	fixation: autoDraw = False
+154.8685 	EXP 	left: image = 'target7.png'
+154.8685 	EXP 	right: image = 'innocent7.png'
+154.8685 	EXP 	left: autoDraw = True
+154.8685 	EXP 	right: autoDraw = True
+159.7024 	DATA 	Keypress: left
+159.7087 	EXP 	left: autoDraw = False
+159.7087 	EXP 	right: autoDraw = False
+159.7087 	EXP 	fixation_2: autoDraw = True
+161.6982 	EXP 	New trial (rep=7, index=0): None
+161.7147 	EXP 	fixation_2: autoDraw = False
+161.7147 	EXP 	fixation_2: autoDraw = False
+161.7147 	EXP 	image: image = 'suspect8.png'
+161.7147 	EXP 	image: autoDraw = True
+163.2132 	EXP 	image: autoDraw = False
+163.2132 	EXP 	image: autoDraw = False
+163.2132 	EXP 	fixation: autoDraw = True
+173.2189 	EXP 	fixation: autoDraw = False
+173.2189 	EXP 	fixation: autoDraw = False
+173.2189 	EXP 	left: image = 'innocent8.png'
+173.2189 	EXP 	right: image = 'target8.png'
+173.2189 	EXP 	left: autoDraw = True
+173.2189 	EXP 	right: autoDraw = True
+176.6525 	DATA 	Keypress: right
+176.6588 	EXP 	left: autoDraw = False
+176.6588 	EXP 	right: autoDraw = False
+176.6588 	EXP 	fixation_2: autoDraw = True
+178.6474 	EXP 	New trial (rep=8, index=0): None
+178.6632 	EXP 	fixation_2: autoDraw = False
+178.6632 	EXP 	fixation_2: autoDraw = False
+178.6632 	EXP 	image: image = 'suspect9.png'
+178.6632 	EXP 	image: autoDraw = True
+180.1552 	EXP 	image: autoDraw = False
+180.1552 	EXP 	image: autoDraw = False
+180.1552 	EXP 	fixation: autoDraw = True
+190.1592 	EXP 	fixation: autoDraw = False
+190.1592 	EXP 	fixation: autoDraw = False
+190.1592 	EXP 	left: image = 'target9.png'
+190.1592 	EXP 	right: image = 'innocent9.png'
+190.1592 	EXP 	left: autoDraw = True
+190.1592 	EXP 	right: autoDraw = True
+192.7718 	DATA 	Keypress: right
+192.7797 	EXP 	left: autoDraw = False
+192.7797 	EXP 	right: autoDraw = False
+192.7797 	EXP 	fixation_2: autoDraw = True
+194.7639 	EXP 	New trial (rep=9, index=0): None
+194.7839 	EXP 	fixation_2: autoDraw = False
+194.7839 	EXP 	fixation_2: autoDraw = False
+194.7839 	EXP 	image: image = 'suspect10.png'
+194.7839 	EXP 	image: autoDraw = True
+195.2790 	EXP 	image: autoDraw = False
+195.2790 	EXP 	image: autoDraw = False
+195.2790 	EXP 	fixation: autoDraw = True
+205.2846 	EXP 	fixation: autoDraw = False
+205.2846 	EXP 	fixation: autoDraw = False
+205.2846 	EXP 	left: image = 'target10.png'
+205.2846 	EXP 	right: image = 'innocent10.png'
+205.2846 	EXP 	left: autoDraw = True
+205.2846 	EXP 	right: autoDraw = True
+209.2324 	DATA 	Keypress: right
+209.2388 	EXP 	left: autoDraw = False
+209.2388 	EXP 	right: autoDraw = False
+209.2388 	EXP 	fixation_2: autoDraw = True
+211.2233 	EXP 	New trial (rep=10, index=0): None
+211.2417 	EXP 	fixation_2: autoDraw = False
+211.2417 	EXP 	fixation_2: autoDraw = False
+211.2417 	EXP 	image: image = 'suspect11.png'
+211.2417 	EXP 	image: autoDraw = True
+212.7378 	EXP 	image: autoDraw = False
+212.7378 	EXP 	image: autoDraw = False
+212.7378 	EXP 	fixation: autoDraw = True
+222.7386 	EXP 	fixation: autoDraw = False
+222.7386 	EXP 	fixation: autoDraw = False
+222.7386 	EXP 	left: image = 'target11.png'
+222.7386 	EXP 	right: image = 'innocent11.png'
+222.7386 	EXP 	left: autoDraw = True
+222.7386 	EXP 	right: autoDraw = True
+227.4941 	DATA 	Keypress: right
+227.5005 	EXP 	left: autoDraw = False
+227.5005 	EXP 	right: autoDraw = False
+227.5005 	EXP 	fixation_2: autoDraw = True
+229.4873 	EXP 	New trial (rep=11, index=0): None
+229.5047 	EXP 	fixation_2: autoDraw = False
+229.5047 	EXP 	fixation_2: autoDraw = False
+229.5047 	EXP 	image: image = 'suspect12.png'
+229.5047 	EXP 	image: autoDraw = True
+230.0036 	EXP 	image: autoDraw = False
+230.0036 	EXP 	image: autoDraw = False
+230.0036 	EXP 	fixation: autoDraw = True
+240.0186 	EXP 	fixation: autoDraw = False
+240.0186 	EXP 	fixation: autoDraw = False
+240.0186 	EXP 	left: image = 'innocent12.png'
+240.0186 	EXP 	right: image = 'target12.png'
+240.0186 	EXP 	left: autoDraw = True
+240.0186 	EXP 	right: autoDraw = True
+243.2670 	DATA 	Keypress: right
+243.2734 	EXP 	left: autoDraw = False
+243.2734 	EXP 	right: autoDraw = False
+243.2734 	EXP 	fixation_2: autoDraw = True
+245.2637 	EXP 	New trial (rep=12, index=0): None
+245.2819 	EXP 	fixation_2: autoDraw = False
+245.2819 	EXP 	fixation_2: autoDraw = False
+245.2819 	EXP 	image: image = 'suspect13.png'
+245.2819 	EXP 	image: autoDraw = True
+245.7779 	EXP 	image: autoDraw = False
+245.7779 	EXP 	image: autoDraw = False
+245.7779 	EXP 	fixation: autoDraw = True
+255.7868 	EXP 	fixation: autoDraw = False
+255.7868 	EXP 	fixation: autoDraw = False
+255.7868 	EXP 	left: image = 'innocent13.png'
+255.7868 	EXP 	right: image = 'target13.png'
+255.7868 	EXP 	left: autoDraw = True
+255.7868 	EXP 	right: autoDraw = True
+257.6578 	DATA 	Keypress: right
+257.6655 	EXP 	left: autoDraw = False
+257.6655 	EXP 	right: autoDraw = False
+257.6655 	EXP 	fixation_2: autoDraw = True
+259.6556 	EXP 	New trial (rep=13, index=0): None
+259.6732 	EXP 	fixation_2: autoDraw = False
+259.6732 	EXP 	fixation_2: autoDraw = False
+259.6732 	EXP 	image: image = 'suspect14.png'
+259.6732 	EXP 	image: autoDraw = True
+261.1697 	EXP 	image: autoDraw = False
+261.1697 	EXP 	image: autoDraw = False
+261.1697 	EXP 	fixation: autoDraw = True
+271.1752 	EXP 	fixation: autoDraw = False
+271.1752 	EXP 	fixation: autoDraw = False
+271.1752 	EXP 	left: image = 'target14.png'
+271.1752 	EXP 	right: image = 'innocent14.png'
+271.1752 	EXP 	left: autoDraw = True
+271.1752 	EXP 	right: autoDraw = True
+276.8330 	DATA 	Keypress: left
+276.8447 	EXP 	left: autoDraw = False
+276.8447 	EXP 	right: autoDraw = False
+276.8447 	EXP 	fixation_2: autoDraw = True
+278.8287 	EXP 	New trial (rep=14, index=0): None
+278.8458 	EXP 	fixation_2: autoDraw = False
+278.8458 	EXP 	fixation_2: autoDraw = False
+278.8458 	EXP 	image: image = 'suspect15.png'
+278.8458 	EXP 	image: autoDraw = True
+279.3445 	EXP 	image: autoDraw = False
+279.3445 	EXP 	image: autoDraw = False
+279.3445 	EXP 	fixation: autoDraw = True
+289.3502 	EXP 	fixation: autoDraw = False
+289.3502 	EXP 	fixation: autoDraw = False
+289.3502 	EXP 	left: image = 'target15.png'
+289.3502 	EXP 	right: image = 'innocent15.png'
+289.3502 	EXP 	left: autoDraw = True
+289.3502 	EXP 	right: autoDraw = True
+291.2643 	DATA 	Keypress: left
+291.2707 	EXP 	left: autoDraw = False
+291.2707 	EXP 	right: autoDraw = False
+291.2707 	EXP 	fixation_2: autoDraw = True
+293.2619 	EXP 	New trial (rep=15, index=0): None
+293.2799 	EXP 	fixation_2: autoDraw = False
+293.2799 	EXP 	fixation_2: autoDraw = False
+293.2799 	EXP 	image: image = 'suspect16.png'
+293.2799 	EXP 	image: autoDraw = True
+293.7788 	EXP 	image: autoDraw = False
+293.7788 	EXP 	image: autoDraw = False
+293.7788 	EXP 	fixation: autoDraw = True
+303.7917 	EXP 	fixation: autoDraw = False
+303.7917 	EXP 	fixation: autoDraw = False
+303.7917 	EXP 	left: image = 'target16.png'
+303.7917 	EXP 	right: image = 'innocent16.png'
+303.7917 	EXP 	left: autoDraw = True
+303.7917 	EXP 	right: autoDraw = True
+305.6906 	DATA 	Keypress: right
+305.6982 	EXP 	left: autoDraw = False
+305.6982 	EXP 	right: autoDraw = False
+305.6982 	EXP 	fixation_2: autoDraw = True
+307.6864 	EXP 	New trial (rep=16, index=0): None
+307.7050 	EXP 	fixation_2: autoDraw = False
+307.7050 	EXP 	fixation_2: autoDraw = False
+307.7050 	EXP 	image: image = 'suspect17.png'
+307.7050 	EXP 	image: autoDraw = True
+309.2025 	EXP 	image: autoDraw = False
+309.2025 	EXP 	image: autoDraw = False
+309.2025 	EXP 	fixation: autoDraw = True
+319.2184 	EXP 	fixation: autoDraw = False
+319.2184 	EXP 	fixation: autoDraw = False
+319.2184 	EXP 	left: image = 'innocent17.png'
+319.2184 	EXP 	right: image = 'target17.png'
+319.2184 	EXP 	left: autoDraw = True
+319.2184 	EXP 	right: autoDraw = True
+321.8353 	DATA 	Keypress: right
+321.8436 	EXP 	left: autoDraw = False
+321.8436 	EXP 	right: autoDraw = False
+321.8436 	EXP 	fixation_2: autoDraw = True
+323.8275 	EXP 	New trial (rep=17, index=0): None
+323.8456 	EXP 	fixation_2: autoDraw = False
+323.8456 	EXP 	fixation_2: autoDraw = False
+323.8456 	EXP 	image: image = 'suspect18.png'
+323.8456 	EXP 	image: autoDraw = True
+325.3436 	EXP 	image: autoDraw = False
+325.3436 	EXP 	image: autoDraw = False
+325.3436 	EXP 	fixation: autoDraw = True
+335.3499 	EXP 	fixation: autoDraw = False
+335.3499 	EXP 	fixation: autoDraw = False
+335.3499 	EXP 	left: image = 'innocent18.png'
+335.3499 	EXP 	right: image = 'target18.png'
+335.3499 	EXP 	left: autoDraw = True
+335.3499 	EXP 	right: autoDraw = True
+339.3148 	DATA 	Keypress: right
+339.3212 	EXP 	left: autoDraw = False
+339.3212 	EXP 	right: autoDraw = False
+339.3212 	EXP 	fixation_2: autoDraw = True
+341.3104 	EXP 	New trial (rep=18, index=0): None
+341.3275 	EXP 	fixation_2: autoDraw = False
+341.3275 	EXP 	fixation_2: autoDraw = False
+341.3275 	EXP 	image: image = 'suspect19.png'
+341.3275 	EXP 	image: autoDraw = True
+341.8268 	EXP 	image: autoDraw = False
+341.8268 	EXP 	image: autoDraw = False
+341.8268 	EXP 	fixation: autoDraw = True
+351.8333 	EXP 	fixation: autoDraw = False
+351.8333 	EXP 	fixation: autoDraw = False
+351.8333 	EXP 	left: image = 'target19.png'
+351.8333 	EXP 	right: image = 'innocent19.png'
+351.8333 	EXP 	left: autoDraw = True
+351.8333 	EXP 	right: autoDraw = True
+357.2057 	DATA 	Keypress: left
+357.2136 	EXP 	left: autoDraw = False
+357.2136 	EXP 	right: autoDraw = False
+357.2136 	EXP 	fixation_2: autoDraw = True
+359.2025 	EXP 	New trial (rep=19, index=0): None
+359.2214 	EXP 	fixation_2: autoDraw = False
+359.2214 	EXP 	fixation_2: autoDraw = False
+359.2214 	EXP 	image: image = 'suspect20.png'
+359.2214 	EXP 	image: autoDraw = True
+360.7179 	EXP 	image: autoDraw = False
+360.7179 	EXP 	image: autoDraw = False
+360.7179 	EXP 	fixation: autoDraw = True
+370.7228 	EXP 	fixation: autoDraw = False
+370.7228 	EXP 	fixation: autoDraw = False
+370.7228 	EXP 	left: image = 'innocent20.png'
+370.7228 	EXP 	right: image = 'target20.png'
+370.7228 	EXP 	left: autoDraw = True
+370.7228 	EXP 	right: autoDraw = True
+374.5307 	DATA 	Keypress: right
+374.5372 	EXP 	left: autoDraw = False
+374.5372 	EXP 	right: autoDraw = False
+374.5372 	EXP 	fixation_2: autoDraw = True
+376.5268 	EXP 	New trial (rep=20, index=0): None
+376.5442 	EXP 	fixation_2: autoDraw = False
+376.5442 	EXP 	fixation_2: autoDraw = False
+376.5442 	EXP 	image: image = 'suspect21.png'
+376.5442 	EXP 	image: autoDraw = True
+377.0435 	EXP 	image: autoDraw = False
+377.0435 	EXP 	image: autoDraw = False
+377.0435 	EXP 	fixation: autoDraw = True
+387.0465 	EXP 	fixation: autoDraw = False
+387.0465 	EXP 	fixation: autoDraw = False
+387.0465 	EXP 	left: image = 'target21.png'
+387.0465 	EXP 	right: image = 'innocent21.png'
+387.0465 	EXP 	left: autoDraw = True
+387.0465 	EXP 	right: autoDraw = True
+390.4146 	DATA 	Keypress: left
+390.4211 	EXP 	left: autoDraw = False
+390.4211 	EXP 	right: autoDraw = False
+390.4211 	EXP 	fixation_2: autoDraw = True
+392.4099 	EXP 	New trial (rep=21, index=0): None
+392.4268 	EXP 	fixation_2: autoDraw = False
+392.4268 	EXP 	fixation_2: autoDraw = False
+392.4268 	EXP 	image: image = 'suspect22.png'
+392.4268 	EXP 	image: autoDraw = True
+393.9257 	EXP 	image: autoDraw = False
+393.9257 	EXP 	image: autoDraw = False
+393.9257 	EXP 	fixation: autoDraw = True
+403.9310 	EXP 	fixation: autoDraw = False
+403.9310 	EXP 	fixation: autoDraw = False
+403.9310 	EXP 	left: image = 'target22.png'
+403.9310 	EXP 	right: image = 'innocent22.png'
+403.9310 	EXP 	left: autoDraw = True
+403.9310 	EXP 	right: autoDraw = True
+405.5968 	DATA 	Keypress: left
+405.6035 	EXP 	left: autoDraw = False
+405.6035 	EXP 	right: autoDraw = False
+405.6035 	EXP 	fixation_2: autoDraw = True
+407.5943 	EXP 	New trial (rep=22, index=0): None
+407.6460 	EXP 	fixation_2: autoDraw = False
+407.6460 	EXP 	fixation_2: autoDraw = False
+407.6460 	EXP 	image: image = 'suspect23.png'
+407.6460 	EXP 	image: autoDraw = True
+408.1413 	EXP 	image: autoDraw = False
+408.1413 	EXP 	image: autoDraw = False
+408.1413 	EXP 	fixation: autoDraw = True
+418.1968 	EXP 	fixation: autoDraw = False
+418.1968 	EXP 	fixation: autoDraw = False
+418.1968 	EXP 	left: image = 'target23.png'
+418.1968 	EXP 	right: image = 'innocent23.png'
+418.1968 	EXP 	left: autoDraw = True
+418.1968 	EXP 	right: autoDraw = True
+424.7284 	DATA 	Keypress: left
+424.7347 	EXP 	left: autoDraw = False
+424.7347 	EXP 	right: autoDraw = False
+424.7347 	EXP 	fixation_2: autoDraw = True
+426.7256 	EXP 	New trial (rep=23, index=0): None
+426.7782 	EXP 	fixation_2: autoDraw = False
+426.7782 	EXP 	fixation_2: autoDraw = False
+426.7782 	EXP 	image: image = 'suspect24.png'
+426.7782 	EXP 	image: autoDraw = True
+427.2751 	EXP 	image: autoDraw = False
+427.2751 	EXP 	image: autoDraw = False
+427.2751 	EXP 	fixation: autoDraw = True
+437.3357 	EXP 	fixation: autoDraw = False
+437.3357 	EXP 	fixation: autoDraw = False
+437.3357 	EXP 	left: image = 'innocent24.png'
+437.3357 	EXP 	right: image = 'target24.png'
+437.3357 	EXP 	left: autoDraw = True
+437.3357 	EXP 	right: autoDraw = True
+444.4280 	DATA 	Keypress: left
+444.4344 	EXP 	left: autoDraw = False
+444.4344 	EXP 	right: autoDraw = False
+444.4344 	EXP 	fixation_2: autoDraw = True
+446.4252 	EXP 	New trial (rep=24, index=0): None
+446.4752 	EXP 	fixation_2: autoDraw = False
+446.4752 	EXP 	fixation_2: autoDraw = False
+446.4752 	EXP 	image: image = 'suspect25.png'
+446.4752 	EXP 	image: autoDraw = True
+446.9740 	EXP 	image: autoDraw = False
+446.9740 	EXP 	image: autoDraw = False
+446.9740 	EXP 	fixation: autoDraw = True
+457.0383 	EXP 	fixation: autoDraw = False
+457.0383 	EXP 	fixation: autoDraw = False
+457.0383 	EXP 	left: image = 'target25.png'
+457.0383 	EXP 	right: image = 'innocent25.png'
+457.0383 	EXP 	left: autoDraw = True
+457.0383 	EXP 	right: autoDraw = True
+462.9792 	DATA 	Keypress: left
+462.9856 	EXP 	left: autoDraw = False
+462.9856 	EXP 	right: autoDraw = False
+462.9856 	EXP 	fixation_2: autoDraw = True
+464.9751 	EXP 	New trial (rep=25, index=0): None
+465.0251 	EXP 	fixation_2: autoDraw = False
+465.0251 	EXP 	fixation_2: autoDraw = False
+465.0251 	EXP 	image: image = 'suspect26.png'
+465.0251 	EXP 	image: autoDraw = True
+466.5238 	EXP 	image: autoDraw = False
+466.5238 	EXP 	image: autoDraw = False
+466.5238 	EXP 	fixation: autoDraw = True
+476.5828 	EXP 	fixation: autoDraw = False
+476.5828 	EXP 	fixation: autoDraw = False
+476.5828 	EXP 	left: image = 'innocent26.png'
+476.5828 	EXP 	right: image = 'target26.png'
+476.5828 	EXP 	left: autoDraw = True
+476.5828 	EXP 	right: autoDraw = True
+484.0960 	DATA 	Keypress: left
+484.1024 	EXP 	left: autoDraw = False
+484.1024 	EXP 	right: autoDraw = False
+484.1024 	EXP 	fixation_2: autoDraw = True
+486.0925 	EXP 	New trial (rep=26, index=0): None
+486.1390 	EXP 	fixation_2: autoDraw = False
+486.1390 	EXP 	fixation_2: autoDraw = False
+486.1390 	EXP 	image: image = 'suspect27.png'
+486.1390 	EXP 	image: autoDraw = True
+487.6315 	EXP 	image: autoDraw = False
+487.6315 	EXP 	image: autoDraw = False
+487.6315 	EXP 	fixation: autoDraw = True
+497.6978 	EXP 	fixation: autoDraw = False
+497.6978 	EXP 	fixation: autoDraw = False
+497.6978 	EXP 	left: image = 'innocent27.png'
+497.6978 	EXP 	right: image = 'target27.png'
+497.6978 	EXP 	left: autoDraw = True
+497.6978 	EXP 	right: autoDraw = True
+501.5821 	DATA 	Keypress: right
+501.5899 	EXP 	left: autoDraw = False
+501.5899 	EXP 	right: autoDraw = False
+501.5899 	EXP 	fixation_2: autoDraw = True
+503.5744 	EXP 	New trial (rep=27, index=0): None
+503.6237 	EXP 	fixation_2: autoDraw = False
+503.6237 	EXP 	fixation_2: autoDraw = False
+503.6237 	EXP 	image: image = 'suspect28.png'
+503.6237 	EXP 	image: autoDraw = True
+504.1230 	EXP 	image: autoDraw = False
+504.1230 	EXP 	image: autoDraw = False
+504.1230 	EXP 	fixation: autoDraw = True
+514.1848 	EXP 	fixation: autoDraw = False
+514.1848 	EXP 	fixation: autoDraw = False
+514.1848 	EXP 	left: image = 'innocent28.png'
+514.1848 	EXP 	right: image = 'target28.png'
+514.1848 	EXP 	left: autoDraw = True
+514.1848 	EXP 	right: autoDraw = True
+519.6143 	DATA 	Keypress: right
+519.6229 	EXP 	left: autoDraw = False
+519.6229 	EXP 	right: autoDraw = False
+519.6229 	EXP 	fixation_2: autoDraw = True
+521.6077 	EXP 	New trial (rep=28, index=0): None
+521.6595 	EXP 	fixation_2: autoDraw = False
+521.6595 	EXP 	fixation_2: autoDraw = False
+521.6595 	EXP 	image: image = 'suspect29.png'
+521.6595 	EXP 	image: autoDraw = True
+523.1556 	EXP 	image: autoDraw = False
+523.1556 	EXP 	image: autoDraw = False
+523.1556 	EXP 	fixation: autoDraw = True
+533.2174 	EXP 	fixation: autoDraw = False
+533.2174 	EXP 	fixation: autoDraw = False
+533.2174 	EXP 	left: image = 'target29.png'
+533.2174 	EXP 	right: image = 'innocent29.png'
+533.2174 	EXP 	left: autoDraw = True
+533.2174 	EXP 	right: autoDraw = True
+535.8443 	DATA 	Keypress: left
+535.8510 	EXP 	left: autoDraw = False
+535.8510 	EXP 	right: autoDraw = False
+535.8510 	EXP 	fixation_2: autoDraw = True
+537.8566 	EXP 	New trial (rep=29, index=0): None
+537.9022 	EXP 	fixation_2: autoDraw = False
+537.9022 	EXP 	image: image = 'suspect30.png'
+537.9022 	EXP 	image: autoDraw = True
+538.3978 	EXP 	image: autoDraw = False
+538.3978 	EXP 	image: autoDraw = False
+538.3978 	EXP 	fixation: autoDraw = True
+548.4510 	EXP 	fixation: autoDraw = False
+548.4510 	EXP 	fixation: autoDraw = False
+548.4510 	EXP 	left: image = 'innocent30.png'
+548.4510 	EXP 	right: image = 'target30.png'
+548.4510 	EXP 	left: autoDraw = True
+548.4510 	EXP 	right: autoDraw = True
+552.5586 	DATA 	Keypress: right
+552.5649 	EXP 	left: autoDraw = False
+552.5649 	EXP 	right: autoDraw = False
+552.5649 	EXP 	fixation_2: autoDraw = True
+554.5595 	EXP 	fixation_2: autoDraw = False
+554.5595 	EXP 	fixation_2: autoDraw = False
+554.5595 	EXP 	text_6: autoDraw = True
+558.5816 	EXP 	text_6: autoDraw = False
+558.5816 	EXP 	text_6: autoDraw = False
+558.5868 	INFO 	saved data to '/Users/codylejang/Desktop/eyewitness/data/cody_eyewitness_2024-11-22_07h28.06.974.csv'
+558.5879 	INFO 	saved data to /Users/codylejang/Desktop/eyewitness/data/cody_eyewitness_2024-11-22_07h28.06.974.psydat
+559.1379 	EXP 	window1: mouseVisible = True
